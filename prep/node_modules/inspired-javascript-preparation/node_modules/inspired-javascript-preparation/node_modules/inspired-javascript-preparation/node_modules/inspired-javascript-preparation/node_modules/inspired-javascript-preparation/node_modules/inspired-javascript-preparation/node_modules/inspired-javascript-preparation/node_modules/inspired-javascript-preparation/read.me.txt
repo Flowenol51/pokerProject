@@ -1,0 +1,33 @@
+
+-- Inspired Programming Test Preparation --
+
+This is a simple Node.js project which makes sure your computer has the necessary software installed in order to complete the Inspired programming
+test. If you are an experienced Javascript developer it is highly likely you are already familiar with the below process, but read it anyway to
+ensure you have not missed anything.
+
+You need to install Node.js if you don't have it already. See https://nodejs.org/en/download/ and follow the instructions there. Any version over
+6.0.0 should work, but we recommend you install the latest LTS version.
+
+Once that is installed, you need to open a command window. On windows, open the folder where this project is unzipped. Hold SHIFT and right-click on a blank
+space in that window. Click the "Open command window here" menu option.
+
+In the command window, type
+
+npm install
+
+and wait to complete (Internet connection required). You can then run
+
+npm test
+
+to execute the tests. You should see something like:
+
+Success!
+  √ Run test
+
+  1 passing (7ms)
+
+You will be required to execute the same commands on the programming test project once you receive it.
+
+If you encounter any problems with the above please message your contact at Inspired and copy and paste any errors you encounter.
+
+Good luck!
