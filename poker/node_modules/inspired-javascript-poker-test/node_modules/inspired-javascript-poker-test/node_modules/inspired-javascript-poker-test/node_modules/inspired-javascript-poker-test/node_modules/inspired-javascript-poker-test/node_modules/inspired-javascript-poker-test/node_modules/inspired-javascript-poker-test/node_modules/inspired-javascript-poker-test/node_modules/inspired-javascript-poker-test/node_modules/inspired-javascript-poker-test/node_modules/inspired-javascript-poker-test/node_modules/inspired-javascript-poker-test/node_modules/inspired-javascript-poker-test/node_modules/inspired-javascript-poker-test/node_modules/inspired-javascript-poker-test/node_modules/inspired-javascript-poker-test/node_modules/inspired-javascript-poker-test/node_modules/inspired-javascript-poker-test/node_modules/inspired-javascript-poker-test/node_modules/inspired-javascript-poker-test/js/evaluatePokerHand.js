@@ -72,7 +72,7 @@ function evaluatePokerHand(hand) {
 		if (suitAmount[suit] == undefined) { // has not been found before
 			suitAmount[suit] = 1;
 		} else { // has been found before
-			suitAmount[suit] = suitAmount[suit] + 1;
+			suitAmount[suit] += 1;
 		}
 	});
 
